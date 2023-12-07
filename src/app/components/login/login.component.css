@@ -1,0 +1,95 @@
+.login-6{
+    background: linear-gradient(90deg, rgb(16 33 78) 0%, rgb(14 152 232) 50%, #11143e 100%);
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logologin a img
+{
+    position: relative;
+}
+
+.logologin1 a img
+{
+    display: none;
+}
+
+@media (max-width:479px)
+{
+    .logologin1 a img
+    {
+        width: 60%;
+        position: relative;
+        top: 0px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+
+    .login-6 .login-inner-form h3
+    {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .login-6 .login-inner-form .details
+    {
+        padding: 15px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.error-1
+{
+    color: maroon;
+}
+
+.input-group-append
+{
+    display: flex;
+}
+
+.login-6 .login-inner-form input[type=checkbox]:checked + label:before
+{
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "" !important;
+}
+
+.rememberMe-label20{
+float: right;
+}
+.rememberMe-label label{
+float:left;
+}
+.rememberMe-label
+{
+    color: black; 
+    font-size: 14px;
+    
+}

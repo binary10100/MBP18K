@@ -1,0 +1,87 @@
+<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-left header-dropdowns">
+            <li id="lilogin1"><a href="../../Accounts/Login.aspx"><i class="fa fa-lock" aria-hidden="true"></i> LOGIN</a></li>
+                     <li id="lisignup1"><a href="../../Accounts/Registration.aspx"><i class="fa fa-sign-in" aria-hidden="true"></i> SIGN UP</a></li>
+                     
+            </div>
+            <div class="header-right">
+                <p id="pID" class="welcome-msg"></p>
+                <div class="header-dropdown dropdown-expanded">
+                       
+                    <a href="#">Links</a>
+                    <div class="header-menu">
+                        <ul>                                                                                                    
+                            <li id="lilogin"><a routerLink="/login"><i class="fa fa-lock" aria-hidden="true"></i> LOGIN</a></li>
+                            
+                            <li id="lisignup"><a href="../../Accounts/Registration.aspx"><i class="fa fa-sign-in" aria-hidden="true"></i> SIGN UP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-middle">
+        <div class="container">
+            <div class="header-left">
+                <a href="/Shop/Customer/Index.aspx" class="logo">
+                    <img src="http://www.mbp18k.com/Shop/Images/logo.png" id="imgCompanyLogo" alt="Maharashtra Bazar peth">
+                </a>
+            </div>
+            <div class="header-center">
+                <div class="header-search">
+                    <a href="#" class="search-toggle" role="button"><i class="icon-magnifier"></i></a>
+                    <div class="header-search-wrapper">
+                        <input name="ctl00$txtSearch" type="text" id="txtSearch" class="form-control" placeholder="Search..." onkeyup="onKeyUp('#txtSearch','Index.aspx/GetSearchProductsByKeyword');">
+                        
+                        <a id="lnkbtnSearch" class="btn" href="javascript:__doPostBack('ctl00$lnkbtnSearch','')"><i class="icon-magnifier" style="line-height: 35px;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="mobile-menu-toggler" type="button">
+                    <i class="icon-menu"></i>
+                </button>
+                <!-- <div class="header-contact"> -->
+                <!-- <span>Call us now</span> -->
+                <!-- <a href="tel:#"><strong>+123 5678 890</strong></a> -->
+                <!-- </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom sticky-header">
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="menu sf-arrows">
+                    <li><a href="/Shop/Customer/Index.aspx">Home</a></li>
+                    <li><a href="/Shop/Customer/AboutUs.aspx">About Us</a></li>
+                    <li>
+                        <a href="/Shop/Customer/ShopByCategory.aspx" class="sf-with-ul">Categories</a>
+                         <div class="megamenu megamenu-fixed-width">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        
+                                                <div class="col-lg-6"><ul><div class="menu-title"></div>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=4ka4tx4nLdejNUrQDGL9zA==">Bakery</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=GFYJntOpuN0JH9MVIA5jCg==">COSMETIC PRODUCTS</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=xIjhN4Dfcuj5IA9ADwb4+w==">Dried Fruits, Nuts &amp; Seeds</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=ZsthVQC8eVbiBL+Lr1w9iQ==">Electronics</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=uneAb3wY2QaWRG4D4S117w==">Grocery</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=SNRYdu+K3DBcFmDbN9/82Q==">Herbal Products</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=CWN1RxHsa4vY9b2QgVC7jQ==">Men's Fashion</a></li>
+                                                <li><a href="http://www.mbp18k.com//Shop/Customer/ProductsByCategory.aspx?CategoryId=Z15V9Sis/3LZ6Phsxar2jA==">Women's Fashion</a></li>
+                                                </ul></div>                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>                                        
+                    <li><a href="/Shop/Customer/ContactUs.aspx">Contact Us</a></li>                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
