@@ -13,15 +13,12 @@
                                 </div>
                                <h3>!!!Login!!!!</h3>
                                 
-                                <div class="form-group">
-      
-      
+                                <div class="form-group">            
                                   <mat-form-field appearance="fill">
                                       <mat-label>UserId</mat-label>
                                       <input matInput name="userId" [(ngModel)]=userId required #txtIdOrAddress=ngModel disabled=false
                                           onkeyup="this.value = this.value.replace(/[^0-9a-z]/i, '')" />
-                                  </mat-form-field>
-      
+                                  </mat-form-field>      
                                 </div>
                                 <div class="form-group" id="divPassword" runat="server">
                                     
